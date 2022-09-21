@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header content css */
+header {
+    background-image: url(../photos/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+#head {
+    margin: 0px auto;
+    text-align: center;
+}
+
+#head h1 {
+    font-family: Verdana;
+    font-size: 62px;
+    color: rgb(19, 19, 18);
+    padding-top: calc(100vh/3);
+}
+
+#head h3 {
+    font-family: Verdana;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(31, 29, 29);
+}
+
+#head button {
+    margin-top: 40px;
+    background-color: #1D809F;
+    border: 1px solid #1D809F;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 15px;
+    color: aliceblue;
+    transition: 1s;
+}
+
+#head button:hover {
+    background-color: #0e3f4e;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+/* Main content css section id=>about */
+#about {
+    height: 70vh;
+}
+
+.about-content {
+    margin: 0px auto;
+    text-align: center;
+    padding-top: calc(70vh/3.5);
+}
+
+.about-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700px;
+    font-size: 30px;
+    color: #212529;
+}
+
+.about-content p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #212529;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.about-content p a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #17667f;
+}
+
+.about-content button {
+    margin-top: 40px;
+    background-color: #212529;
+    border: 1px solid #212529;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 15px;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.about-content button:hover {
+    background-color: #212529;
+    border: 1px solid;
+    background-color: #16191b;
+    cursor: pointer;
+}
+
+/* Main content css section id=>service */
+#service {
+    background-color: #1D809F;
+    height: 85vh;
+}
+
+#service .service-content {
+    margin: 0px auto;
+    text-align: center;
+    padding-top: calc(85vh/5);
+}
+
+#service .service-content h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700px;
+    font-size: 18px;
+    color: #ecb807;
+}
+
+#service .service-content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700px;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+#service .service-content table {
+    margin-top: 30px;
+}
+
+#service .service-content table img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#service .service-content table td {
+    padding-left: 70px;
+}
+
+#service .service-content table td h2 {
+    font-size: 20px;
+}
+
+#service .service-content table td p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 10px;
+}
+
+/* Main content css section id=>download */
+#download {
+    background-image: url(../photos/bgdownload.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+#download .download-content h2 {
+    margin: 0px auto;
+    padding-top: calc(100vh/3);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700px;
+    font-size: 55px;
+    color: #212529;
+}
+
+#download .download-content button {
+    margin-top: 50px;
+    margin-left: 400px;
+    background-color: #1D809F;
+    border: 1px solid #1D809F;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 15px;
+    color: aliceblue;
+    transition: 1s;
+}
+
+#download .download-content button:hover {
+    background-color: #0e3f4e;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+/* Main content css section id=>portfolio */
+#portfolio {
+    height: 130vh;
+}
+
+#portfolio .portfolio-content {
+    margin: 0px auto;
+    text-align: center;
+    padding-top: calc(130vh/9);
+}
+
+#portfolio .portfolio-content h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ecb807;
+}
+
+#portfolio .portfolio-content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5px;
+    color: #212529;
+}
+
+#portfolio .portfolio-content table {
+    margin-top: 40px;
+}
+
+#portfolio .portfolio-content table td.portfo {
+    margin-left: 100px;
+    display: inline-block;
+}
+
+#portfolio .portfolio-content table img {
+    width: 400px;
+    transition: 1s;
+}
+
+#portfolio .portfolio-content table img:hover {
+    filter: blur(2px);
+    width: 300px;
+    cursor: pointer;
+}
+
+/* Main content css section id=>resist */
+#resist {
+    background-color: #1D809F;
+    height: 60vh;
+}
+
+#resist .resist-content {
+    margin: 0px auto;
+    text-align: center;
+    padding-top: calc(60vh/3);
+}
+
+#resist .resist-content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#resist .resist-content table {
+    margin-left: 350px;
+}
+
+#resist .resist-content table td.bgwhite button {
+    margin-top: 40px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 15px;
+    color: black;
+    transition: 1s;
+}
+
+#resist .resist-content table td.bgwhite button:hover {
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+#resist .resist-content table td.bgblack button {
+    margin-top: 40px;
+    background-color: #212529;
+    border: 1px solid #212529;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 15px;
+    color: aliceblue;
+    transition: 1s;
+}
+
+#resist .resist-content table td.bgblack button:hover {
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+/* Main content css section id=>map */
+#map {
+    height: 60vh;
+}
+
+/* Footer content */
+#foot {
+    height: 40vh;
+
+}
+
+#foot table {
+    margin: 0px auto;
+    text-align: center;
+    padding-top: calc(40vh/4);
+}
+
+#foot table td {
+    padding-left: 5px;
+}
+
+#foot table img {
+    width: 65px;
+}
+
+#foot p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+}
